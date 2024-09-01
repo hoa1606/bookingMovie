@@ -1,6 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+
+import "./config/style/tailwind.css";
+import "./config/style/font-family.css";
+import "./config/style/main.css";
 
 import { RouterProvider } from "react-router-dom";
 import { router } from './router';
